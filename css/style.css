@@ -20,7 +20,7 @@ body{
 	background-color: white;
 	color: #84A30A;
 	border-radius: 5px;
-	padding: 10px 15px;
+	padding: 15px 15px;
 	font-size: 15px;
 }
 
@@ -71,6 +71,8 @@ header span{
 	padding-left: 60px;
 	top: 20%;
 	text-align: left;
+	color: #363636;
+	padding-top: 10px;
 }
 
 #acerca ul{
@@ -258,3 +260,56 @@ footer{
 	text-align: center;
 	padding-bottom: 15px;
 }
+
+
+
+/*Tablet*/
+@media (min-width:480px) and (max-width: 1024px){
+	
+	.carousel-caption h1{
+	font-size: 40px;
+	}
+	
+	.carousel-caption p{
+	font-size: 16px;
+}
+}
+
+
+/*Celular*/
+@media (max-width:480px){
+	
+
+.carousel-caption{
+		display: none;
+	}
+	
+.carousel-caption h1{
+	font-size: 20px;
+	}
+	
+#servicios p{
+		display: none;
+	}
+	
+.btn-rectangulo{
+		padding: 5px 10px;;
+		font-size: 10px;
+	}
+}
+	
+.btn-center{
+	text-align: center;
+	display: block;
+	width: 40%;
+	padding: 5px 0;
+}
+
+.titulo{
+	text-align: center;
+}
+
+.titulo::after{
+	margin: 10px auto;
+}
+ 
