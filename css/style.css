@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,500,600,700');
+body{
+	font-family: 'Cabin', sans-serif;
+	font-size: 14px;
+	color: #212529;
+}
+.header-area.sticky {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+.header-area.sticky .navbar-default{
+	background-color: #884bdf;
+}
+
+.btn-rectangulo{
+	background-color: white;
+	color: #84A30A;
+	border-radius: 5px;
+	padding: 10px 15px;
+	font-size: 15px;
+}
+
+header span{
+	color: #84A30A;
+}
+
+
+.hola{
+    text-align: left;
+    left: 60%;
+    top: 35%;
+}
+
+#slides p{
+	font-size: 15px;
+	padding: 10px 0;
+	text-align: left;
+}
+
+#slides h1{
+	font-size: 80px;
+	padding: 5px 0;
+	text-align: left;
+}
+
+.slidee{
+	top: 25%;
+	left: 50%;
+	text-align: center;
+}
+
+
+#acerca{
+	text-align: left;
+	left: 25%;
+	top: 25%;
+	background-color: #fff;
+}
+
+#acerca h2{
+	padding-top: 20%;
+	padding-left: 60px;
+	text-align: left;
+}
+
+#acerca p{
+	padding-left: 60px;
+	top: 20%;
+	text-align: left;
+}
+
+#acerca ul{
+	padding-left: 80px;
+	text-align: left;
+}
+.acerca-carousel{
+	width: 120%;
+}
+
+.acercatit{
+	margin-bottom: 0;
+	font-size: 40px;
+}
+
+.acercatit span{
+	display: block;
+	font-weight: 300;
+	color: #84A30A;
+}
+
+.titulo{
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+
+
+.titulo span{
+	display: block;
+	font-weight: 300;
+	color: #84A30A;
+}
+
+#servicios{
+	background-color: #363636;
+	color: #84A30A;
+	text-align: center;
+	padding-bottom: 100px;
+}
+
+#servicios h1, p, i{
+	color: white;
+}
+
+#servicios h1{
+	text-align: center;
+	padding: 100px 0 45px 0;
+}	
+
+#servicios i{
+	font-size: 70px;
+	text-align: center;
+	padding-bottom: 45px;
+}
+
+#servicios h2{
+	font-size: 16px;
+}
+
+
+#portafolio{
+	text-align: center;
+	padding-top: 50px;
+}
+
+#portafolio h1{
+	padding: 25px 0;
+}
+
+.foto{
+	position: relative;
+	overflow: hidden;
+}
+
+.overlay{
+	position: absolute;
+	top: 70%;
+	left: 0;
+	width: 90%;
+	padding: 15px 10px;
+	background-color: rgba(36,41,18,0.88);
+	opacity: 0;
+	transition: all 0.3s ease-in-out;
+	color: white;
+}
+
+.overlay h2, h3{
+	font-size: 15px;
+}
+
+.overlay p a{
+	text-decoration: none;
+	font-style: italic;
+	color: #84A30A;
+}
+
+.foto:hover .overlay{
+	opacity: 1;
+	transition: all 0.3s ease-in-out;
+	transform: translate(5%, 0, 0);
+}
+
+.foto img{
+	transition: all 0.5s ease-in-out;
+}
+
+.foto:hover img{
+	transition: all 0.5s ease-in-out;
+	transform: scale(1.06);
+}
+
+#logoforms .overlay{
+	top:0;
+	width: 100%;
+	height: 100%;
+	opacity: 1;
+	z-index: 0;
+}
+
+
+#logoforms .info-foto{
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	background-color: #C9AF01; 
+	text-align: center;
+	z-index: 4;
+}
+
+
+#contacto{
+	background-color: #363636;
+	padding: 50px 0;
+}
+
+#contacto h2{
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+#contacto p{
+	text-align: center;
+}
+
+
+#copyright{
+	align-content: center;
+	text-align: center;
+	padding: 20px 0;
+	font-size: 15px;
+	text-decoration: none;
+	color: #363636;
+}
+
+#copyright span{
+	color: #84A30A;
+}
+
+#copyright a i{
+	color: #84A30A;
+}
+
+#copyright a i:hover{
+	color: #363636;
+}
+.clase{
+	text-decoration: none;
+	color: #363636;
+}
+
+.clase:hover{
+	color:#84A30A;
+}
+footer{
+	padding-top: 15px;
+}
+
+
+#modal h2{
+	color: #84A30A;
+	text-align: center;
+	padding-bottom: 15px;
+}
