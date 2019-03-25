@@ -80,7 +80,7 @@ header span{
 	text-align: left;
 }
 .acerca-carousel{
-	width: 120%;
+	width: 130%;
 }
 
 .acercatit{
@@ -295,6 +295,7 @@ footer{
 .btn-rectangulo{
 		padding: 5px 10px;;
 		font-size: 10px;
+		text-align: center;
 	}
 }
 	
@@ -310,6 +311,6 @@ footer{
 }
 
 .titulo::after{
-	margin: 10px auto;
+	margin: 2px auto;
 }
  
